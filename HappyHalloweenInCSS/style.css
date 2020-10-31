@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(1, 1, 29);
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 50px;
+}
+
+.face1{
+    background-color: orangered;
+    width: 600px;
+    height: 250px;
+    max-width: 350px;
+    border-radius: 80px;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    box-shadow: 10px 10px 60px rgba(255, 238, 0, 0.397);
+}
+
+.face2{
+    position: absolute;
+    position: relative;
+    background-color: rgb(255, 107, 53);
+    width: 500px;
+    height: 250px;
+    max-width: 260px;
+    border-radius: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.face3{
+    position: absolute;
+    position: relative;
+    background-color:orangered;
+    width: 400px;
+    height: 250px;
+    max-width: 150px;
+    border-radius: 80px;
+    justify-content: center;
+    margin: auto;
+}
+
+.cabinhu{
+    width: 25px;
+    height: 25px;
+    background-color: green;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349);
+    border-radius:0px 15px 0px 0px;
+}
+
+.eyes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.eye{
+    width: 0; 
+    height: 0; 
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 39px solid black;
+    padding-top: 75px;
+}
+
+.nozes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.noze{
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid black;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.mouths{
+    display: flex;
+    flex-direction: row;
+    padding-top: 8px;
+    justify-content: center;
+}
+
+.mouth{
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 40px solid black;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.mouthr{
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 45px solid black;
+    margin: auto;
+}
+
+.mouthy{
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 40px solid black;
+    margin: auto;
+}
+
+.text{
+    padding-top: 40px;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 1px solid yellow;
+}
+
+.text h1{
+    color: orangered;
+    font-size: 70px;
+    font-family: 'Sanchez', serif;
+}
+
+.text h2{
+    color: yellow;
+    font-size: 35px;
+    font-family: 'Sanchez', serif;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+}
+
+/*~by Welberthy Gustavo*/
