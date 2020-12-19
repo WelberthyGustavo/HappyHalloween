@@ -1,2 +1,0 @@
-# HappyHalloween
-HappyHalloweenInCSS
